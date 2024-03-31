@@ -1,0 +1,39 @@
+.body{
+    background-color: red;
+}
+
+#logo-principal{
+    background: url("assets/img/sh2.jpg");
+    height: 200px;
+    width: 280px;
+    background-size: cover;
+    margin: auto;
+}
+
+h1, h3{
+    font-family: 'Bangers', cursive;
+}
+h3{
+    font-size: 34px;
+}
+
+.spantext{
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.rainbow-bg{
+    background-image: linear-gradient(to top right, #FCA5A5, #FCD34D, #6EE7B7, #93C5FD, #C4B5FD);
+}
+
+.btn-muted:active{
+    background-image: linear-gradient(to top right, #FEF2F2, #FFFBEB, #ECFDF5, #EFF6FF,#F5F3FF);
+}
+
+footer{
+    height: 30px;
+    color: gray;
+    background-image: linear-gradient(to top right, #EFF6FF, #ECFDF5);
+    text-align: center;
+}
